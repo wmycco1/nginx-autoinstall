@@ -766,7 +766,7 @@ case $OPTION in
 	fi
 
 	# Removing temporary Nginx and modules files
-	rm -r /usr/local/src/nginx
+	# rm -r /usr/local/src/nginx
 
 	# We're done !
 	echo "Installation done."
