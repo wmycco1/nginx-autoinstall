@@ -8,6 +8,7 @@ fi
 
 # Define versions
 NGINX_MAINLINE_VER=${NGINX_MAINLINE_VER:-1.21.6}
+# NGINX_STABLE_VER=${NGINX_STABLE_VER:-1.66.0}
 NGINX_STABLE_VER=${NGINX_STABLE_VER:-1.22.0}
 LIBRESSL_VER=${LIBRESSL_VER:-3.3.1}
 OPENSSL_VER=${OPENSSL_VER:-1.1.1l}
@@ -767,6 +768,9 @@ case $OPTION in
 
 	# Removing temporary Nginx and modules files
 	# rm -r /usr/local/src/nginx
+ 
+	echo="Copy temporary Nginx and modules files"
+	cp /usr/local/src/nginx ~/ktl_scandi/
 
 	# We're done !
 	echo "Installation done."
