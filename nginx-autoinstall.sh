@@ -770,7 +770,7 @@ case $OPTION in
 	# rm -r /usr/local/src/nginx
  
 	echo="Copy temporary Nginx and modules files"
-	cp /usr/local/src/nginx ~/ktl_scandi/
+	cp -r /usr/local/src/nginx ~/ktl_scandi/
 
 	# We're done !
 	echo "Installation done."
