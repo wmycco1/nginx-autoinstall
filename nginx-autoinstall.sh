@@ -769,8 +769,8 @@ case $OPTION in
 	# Removing temporary Nginx and modules files
 	# rm -r /usr/local/src/nginx
  
-	echo="Copy temporary Nginx and modules files"
-	cp -r /usr/local/src/nginx ~/ktl_scandi/
+	# echo="Copy temporary Nginx and modules files"
+	# cp -r /usr/local/src/nginx ~/ktl_scandi/
 
 	# We're done !
 	echo "Installation done."
